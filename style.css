@@ -1,0 +1,463 @@
+  bn b*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+/*Navbar part strat*/
+nav{
+    width: 100%;
+    padding: 30px 0; 
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+nav .nav-main{
+    display: flex;
+}
+nav .logo{
+    width: 230px;    
+}
+nav .menu{
+    width: 710px;
+  /*  height: 100px;  */
+   
+    
+}
+nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .register{
+    width: 230px;
+    text-align: right;
+   /*  height: 100px; */   
+}
+
+nav .menu ul li{
+    display: inline-block;
+   padding-right: 20px; 
+}
+nav .menu ul li:last-child{
+    padding-right: 0;
+}
+nav .menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+    transition: all linear .3s;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+nav .menu ul li a::after{
+    background: url(../pranjona/img/Screenshot_7.png);
+    width: 52px;
+    height: 22px;
+    position: absolute;
+    bottom: -36px;
+    left: 50%;
+    content: "";
+    transform: translateX(-50%);
+    transition: all linear .3s;
+    opacity: 0;
+
+}
+nav .menu ul li a:hover{
+    color: #d50a51;
+}
+nav .menu ul li a:hover::after{
+    opacity: 1;
+    bottom: -25px;
+}
+.common-button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.common-button i{
+    padding-right: 5px;
+}
+ .common-button{
+    background-color: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    transition: all linear .3s;
+}
+ .common-button:hover{
+    background-color: #d50a51;
+    color: #fff;
+}
+.common-button.no-hover{
+    background-color: crimson;
+    color:#fff;
+}
+.common-text h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+.common-text .title{
+    padding-left: 53px;
+    padding-bottom: 50px;
+}
+.common-text h3::after{
+    background: url(../pranjona/img/valitina-Recoveredqqqqq.gif);
+    position: absolute;
+    top: -26px;
+    left: -54px;
+    width: 84px;
+    height: 77px;
+    content: "";
+}
+.common-text h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.common-text p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+.common-text p.last-para{
+    padding-top: 30px;
+}
+
+
+/*Navbar part strat*/
+
+/*font
+font-family: 'Open Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Great Vibes', cursive;
+
+
+
+*/
+/*banner part   */
+#banner{
+    background: url(../pranjona/img/valitina-yyyy.gif) no-repeat center;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 200px;
+   
+}
+
+#banner .banner-container{
+    position: relative;
+}
+
+#banner .banner-main{
+    display: flex;
+}
+#banner .banner-image {
+    width: 600px;
+    
+}
+#banner .banner-image img{
+  width: 590px;
+  position: absolute;
+  bottom: -144px;
+  left: -70px;
+  
+  
+}
+#banner .banner-content{
+    width: 570px;
+    text-align: center;
+}
+#banner h2{
+    font-size: 61px;
+    font-weight: 600;
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+#banner h1{
+    font-size: 81px;
+    font-weight: 400;
+    color: #d50a51;
+    font-family: 'Great Vibes', cursive;
+    margin-top: -38px;
+    
+}
+#banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    padding: 20px 0 60px 0;
+    
+}
+
+/*banner part   */
+/*History start part*/
+#history{
+    padding-top: 100px;
+}
+#history .image{
+    width: 570px;
+    
+}
+#history .text{
+    width: 570px;
+   padding-top: 30px;
+}
+#history .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*History start part */
+/*gift start part */
+#gift{
+    padding-top: 50px;
+    
+}
+.gift-bg{
+    background-color: #fff9e1;
+    padding: 85px 0 60px 0;
+   
+}
+.gift-bg .main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gift-bg .text{
+    width: 570px;
+    
+    
+}
+.gift-bg .image{
+   
+    position: relative;
+}
+.gift-bg .image img{
+    width: 556px;
+}
+.gift-bg .image .img{
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+   
+}
+.gift-bg a{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+/*gift start part */
+/*ticket start part */
+#ticket{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#ticket .main{
+    display: flex;
+    justify-content: space-between;
+}
+#ticket .image{
+    width: 570px;
+    
+}
+#ticket .text{
+    width: 570px;
+    text-align: right;
+}
+#ticket .text h3::after{
+    background: url(../pranjona/img/valitina-loved.gif);
+    left: 93%;
+}
+#ticket .text .title{
+    padding-right: 53px;
+}
+#ticket .text a{
+    margin: 30px 0 0 10px;
+
+}
+/*ticket start part */
+/*service start part */
+#service{
+    padding-top: 100px;
+}
+.service-bg{
+    background: url(../pranjona/img/valitina-Rbbbackground.gif) no-repeat center;
+    background-size: cover;
+    padding: 60px 0 4px 0;
+    margin: 0 0 50px 0;
+}
+.service-bg .main{
+    display: flex;
+    justify-content: space-between;
+}
+.service-bg .service-text{
+    width: 370px;
+    
+}
+.service-bg .service-card{
+    width: 770px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.service-bg .card-item{
+    width: 370px;
+    height: 250px;
+    background-color:transparent;
+    padding: 30px;
+    border-right: 2px solid transparent;
+    transition: all linear .3s;
+}
+.service-bg .card-item:hover{
+    background-color: #f1f1f1;
+    border-color: #d50a51;
+}
+.service-bg .card-item ul li{
+    display: inline-block;
+}
+.service-bg .card-item ul li:last-child{
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 20px;
+}
+.service-bg .card-item p{
+    padding-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+}
+/*service start part */
+/*galarry start part */
+#gallary{
+    padding-top: 100px;
+}
+#gallary .main{
+    display: flex;
+    justify-content: space-between;
+}
+#gallary .image-gallary{
+    width: 776px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#gallary .img-text{
+    width: 370px;
+    height: 400px;
+    background-color: #500ebb;
+}
+#gallary .item{
+    width: 370px;
+    
+}
+#gallary .item .img{
+    position: relative;
+}
+#gallary .item .img img{
+    display: block;
+}
+#gallary .item .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all linear .3s;
+}
+#gallary .item .icon{
+    position: absolute;
+    padding-top: 10px;
+    top: 15ps;
+    right: 15px;
+}
+#gallary .item .icon li{
+  margin-bottom: 18px;
+}
+
+#gallary .item .icon i{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: all linear .5s;
+}
+#gallary .item .icon i:hover{
+    background-color: #d50a51;
+    border-color: #d50a51;
+}
+    
+ 
+#gallary .item.last-item{
+   margin-top: 30px;
+}
+#gallary .comments h4{
+   font-size: 20px;
+   font-weight: 600px;
+   color: #fff;
+   font-family: 'Josefin Sans', sans-serif;
+}
+#gallary .comments li{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*galarry start part */
+
+
+
